@@ -200,5 +200,98 @@ button {
 }
 
 
+/* Card Container */
+.ecard{
+  display: flex;
+  margin-left: 115px;
+  justify-content: center;
+}
+
+.card{
+  background-color: aqua;
+  border-radius: 10px;
+  box-shadow: #000000;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  margin: 10px;
+}
 
 
+.card:hover{
+  transform: scale(1.05);
+}
+
+.product-image{
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.product-title{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+
+.product.descripation{
+  font-size: 0.9rem;
+  color: aquamarine;
+  margin-bottom: 15px;
+}
+
+.product-price{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 20px;
+}
+
+.buy-button{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover{
+  background-color: blue;
+}
+
+.view-more{
+  text-align: center;
+}
+
+/* footer section */
+.footer{
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer h4{
+  margin-bottom: 15px;
+}
+
+.icn{
+  background-color: white;
+  border-radius: 100px;
+}
+
+.footer2 p a{
+  color: azure;
+}
+
+/* content us page css */
+.background-page{
+  background-image: url(./img/headphone1.png);
+  
+}
