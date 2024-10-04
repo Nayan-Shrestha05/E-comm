@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -279,8 +280,10 @@ text-align: center;
 
 
 
-/* footer section */
-.footer{
+/* footer section  */
+
+
+.footer {
   width: 100%;
   padding-top: 3em;
   padding-bottom: 5em;
@@ -289,17 +292,17 @@ text-align: center;
   justify-content: space-around;
 }
 
-.footer h4{
+.footer h4 {
   margin-bottom: 15px;
 }
 
-.icn{
+.icn {
   background-color: white;
   border-radius: 100px;
 }
 
 .footer2 p a{
-  color: azure;
+  color: rgb(253, 253, 253);
 }
 
 
